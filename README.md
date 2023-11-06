@@ -2,7 +2,7 @@
 
 **Description**: This project is a simple Gooogle clone built using HTML and CSS. It replicates some of the basic functionality and design elements of the Google website for educational purposes and as a demonstration of web development skills. 
 
-**Disclaimer**: his project, titled "Google Clone," is intended for educational and demonstrative purposes only. It is not affiliated with or endorsed by Google Inc. The usage of any Google-related terms, including the Google logo, is purely for illustrative purposes. Users should comply with Google's terms of service and policies while using this project.
+**Disclaimer**: This project, titled "Google Clone," is intended for educational and demonstrative purposes only. It is not affiliated with or endorsed by Google Inc. The usage of any Google-related terms, including the Google logo, is purely for illustrative purposes. Users should comply with Google's terms of service and policies while using this project.
 
 Please be aware that this project does not provide access to Google's search engine, databases, or services. Use it responsibly and in accordance with applicable laws and regulations.
 
