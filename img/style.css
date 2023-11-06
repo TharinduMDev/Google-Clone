@@ -10,6 +10,7 @@ main{
 html{
     width: 100vw;
 }
+
 #titlebar {
     position: relative;
     height: 55px;
@@ -62,6 +63,7 @@ html{
 .text-item:hover{
     text-decoration: underline;
 }
+
 #logo {
     top: 48px;
     height: 35vh;
@@ -83,6 +85,7 @@ html{
     height: 142px;
     width: 100vw;
     min-height: 100;
+
 }
 #text-field{
     position: relative;
@@ -95,6 +98,7 @@ html{
     display: flex;
     justify-content: space-around;
 }
+
 #text-field input {
     position: relative;
     top: 50%;
@@ -113,15 +117,18 @@ html{
     height: 15px;
     left: 8px;
     top: 50%;
-    transform: translateY(-50%);   
+    transform: translateY(-50%);
+    
 }
+
 #lens-img {
     position: relative;
     width: 24px;
     height: 24px;
     top: 50%;
     transform: translateY(-50%);
-    right: 8px;   
+    right: 8px;
+    
 }
 #button-box{
     margin-top: 18px;
@@ -148,6 +155,7 @@ html{
     font-size: 0.859rem;
     color: rgb(56, 56, 56);
 }
+
 .button-1:hover {
     border: 1px solid rgb(200, 200, 200);
     cursor: pointer;
@@ -156,8 +164,10 @@ html{
     display: flex;
     width: 100vw;
     height: 52px;
+    
     align-items: center;
     justify-content: center;
+
 }
 .lan {
     padding: 3px;
@@ -168,6 +178,7 @@ html{
 #lan-box .lan {
     color:#1a0dab;
 }
+
 #lan-box:hover {
     text-decoration: underline;
 }
@@ -250,4 +261,28 @@ p {
     font-weight: bold;
     
 }
+@media all and (width < 665px){
+    #footer{
+        height: 90px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    #text-field{
+        width: 90vw;
+    }
+    #text-field input {
+        width: 70vw;
+    }
+}
+@media all and (height < 500px){
+    #footer-all {
+        position: static;
+    }
+}
+
+
+
+
+
 
