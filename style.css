@@ -250,4 +250,22 @@ p {
     font-weight: bold;
     
 }
-
+@media all and (width < 665px){
+    #footer{
+        height: 90px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    #text-field{
+        width: 90vw;
+    }
+    #text-field input {
+        width: 70vw;
+    }
+    @media all and (height < 500px){
+        #footer-all {
+            position: static;
+        }
+    }
+}
