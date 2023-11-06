@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 100vw;
+}
+html{
+    width: 100vw;
+}
+#titlebar {
+    position: relative;
+    height: 55px;
+    font-size: 13px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100vw;
+}
+#titlebar:last-child [title="Sign in"] {
+    color: white;
+    width: 95px;
+    height: 35px;
+    background-color: rgb(114, 114, 240);
+    border-radius: 4px;
+    border: 0;
+}

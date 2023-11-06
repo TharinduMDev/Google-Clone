@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    
+    <header>
+        <div id="titlebar">
+            <div id="item" ><a class="text-item" href="#">Gmail</a></div>
+            <div id="item" ><a class="text-item" href="#">Images</a></div>
+            <div id="item" class="item3" title="Google apps"><img src="img/bars .png" alt="bars" id="menu-icon"></div>
+            <div id="item"><button type="submit" title="Sign in">Sign in</button></div>
+        </div>
+    </header>
+
+    <main>
+        <div id="logo">
+            <img src="img/logo.png" alt="Google logo">
+        </div>
+        <form method="GET" action="https://www.google.com/search" >
+            <div id="search-field">
+                <div id="text-field"> <img id="search-img" src="img/search.png" alt=""><input name="q" title="Search" type="text"><img id="lens-img" title="Search by image" src="img/lens_icon.svg" alt="">
+            </div> 
+            <div id="button-box">
+                <button type="submit" class="button-1">Google Search</button>
+                <button class="button-1">I'm Feeling Lucky</button>
+            </div>
+        </form>
+        <div id="language">
+            <div class="lan">Google offered in:</div>
+            <div id="lan-box"><a class="lan" href="#">සිංහල</a></div>
+            <div id="lan-box"><a class="lan" href="#">தமிழ்</a></div>
+        </div>
+        <p>This page is for practice purposes only</p>
+        <footer id="footer-all">
+            <div id="sri-lanka">Sri Lanka</div>
+            <div id="footer">
+                <ul id="footer-1">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+                <ul id="footer-2">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Term</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>   
 </body>
 </html>
